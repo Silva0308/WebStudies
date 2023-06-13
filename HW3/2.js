@@ -2,10 +2,10 @@
 // Также необходимо спросить у пользователя его имя и вызвать функцию, про которую ранее шла речь, 
 // передав ей полученное от пользователя имя.
 
-function outputToTheConsole(userName) {
+function greeting(userName) {
     console.log(`Привет, ${userName}!`);
 }
 
 const userName = prompt('Введите имя:');
 
-outputToTheConsole(userName);
+greeting(userName);
